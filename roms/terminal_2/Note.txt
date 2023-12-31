@@ -1,0 +1,1 @@
+CG-04.BIN - The character rom chip was faulty. Use image from terminal 1
