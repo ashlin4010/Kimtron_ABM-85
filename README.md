@@ -39,3 +39,8 @@ Both U15 (74LS08) and the 8275 had died, as well as the CRT. I suspect that some
 
 
 ![Screenshot](images/crt_driver_board.jpg)
+
+
+## Replacement Capacitors ##
+
+https://docs.google.com/spreadsheets/d/1czg9hMJ3bNXz6wbedZvZkCWXic-MMVokBJp4r8-iu80/edit?usp=sharing
