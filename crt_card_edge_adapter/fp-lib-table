@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Card_Edge")(type "KiCad")(uri "${KIPRJMOD}/Card_Edge.pretty")(options "")(descr ""))
+)
