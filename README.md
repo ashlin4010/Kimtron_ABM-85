@@ -2,11 +2,11 @@
 
 This repository contains some notes and incomplete schematics for the Kimtron ABM-85 terminal.
 
-I own two Kimtron ABM-85 terminals both of witch have faults, in this repository I share the notes I have made while trying to get them working.
+I own two Kimtron ABM-85 terminals both of witch have faults, in this repository I share the notes I and others have made while trying to get them working.
 
 ROM images can be found at [bitsavers.org](https://bitsavers.org/pdf/kimtron/Kimtron_ABM-85/advertisement/) and in the repo.
 
-![Screenshot](images/Kimtron_ABM-85_2.jpg) 
+![Screenshot](images/Kimtron_ABM-85_2.jpg)
 
 ## Notes ##
 
@@ -31,11 +31,25 @@ ROM images can be found at [bitsavers.org](https://bitsavers.org/pdf/kimtron/Kim
 * 8155 dead, pin 7 stuck a 3v
 * CRT is working but unstable
 
+### System 3 - Failed Parts ###
+* All 2114
+* 8275 U8
+* 74LS163 U14
+
+### System 4 - Failed Parts ###
+* All 2114
+* MC1400 x2
+* MC1489
+* 8275 U8
+* 8155 U33
+* 74LS163 U14
+* 74LS175 U11
+* 74LS08 U11
 
 ### Observation and Thoughts ###
 Originally when I tested both of these terminals both had good power supplies, and good CRTs but only on of the logic boards worked. Both CRTs were unstable, the image had a tendency to lose sink and scroll. The terminal with a good logic board I left running for about 15-30 minutes, when I came back to it the screen had gone blank. Doing some testing the logic board had died, so had the CRT.
 
-Both U15 (74LS08) and the 8275 had died, as well as the CRT. I suspect that some component in the CRT driver board has failed and killed both boards. As the CRT wars functioning previously I'm inclined to believe a capacitor develop a short. My next steps will be to recap both CRT drive board and repair any damage.
+Both U15 (74LS08) and the 8275 had died, as well as the CRT. I suspect that some component in the CRT driver board has failed and killed both boards. As the CRT was functioning previously I'm inclined to believe a capacitor develop a short. My next steps will be to recap both CRT drive board and repair any damage.
 
 
 ![Screenshot](images/crt_driver_board.jpg)
